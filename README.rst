@@ -271,6 +271,8 @@ License
 
 Citation: Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
 
+Citation: Boyang Deng. Modified LabelImg. Git code (2024). https://github.com/vicdxxx/Modified-LabelImg
+
 Related
 ~~~~~~~
 
