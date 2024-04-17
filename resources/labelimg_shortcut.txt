@@ -1,0 +1,62 @@
+目前 dos 窗口会显示快捷键修改的结果
+
+默认自动保存（再切换到下一张图片的时候保存，如果未切换图片需要按 Ctrl+s 保存）
+默认为画框模式（快捷键区分大小写）
+
+w 进入画框模式
+e 进入修改模式（或者左键单击图片任意位置，进入修改模式）
+
+a 上一张图
+d 下一张图
+
+s 切换中英文标签,默认显示中文标签
+
+Ctrl+Shift+X
+弹出选择框，可以导入任意xml
+
+Ctrl+f
+图片尺寸缩放到符合窗口大小
+
+f show label
+
+zoom (1) set mounse at remote position from target and center, zoom do not move mouse; (2)for edges, set mounse next to boundaries in GUI, zoom do not move mouse
+
+v
+打开/关闭 保留上一次标注结果到本张图片
+
+c delete
+
+Ctrl+s save
+
+Ctrl+Shift+V
+打开任意xml标注文件
+
+
+画框模式
+打开软件前，设置
+./data/predefined_classes.txt
+填入类别名称，按顺序对应快捷键1到9，大于9不支持快捷键，设置完成打开软件
+
+q 切换是否画完框后弹出编辑对话框
+
+
+修改模式
+左键点击单张图片后，可以拖动，r 可以修改图片标签
+t quick label (with the text of selected number 1-9) without popup
+
+左键点击单张图片的四个角可以缩放该图片
+鼠标左键可以框选若干个框，然后拖动任意被框选中的框可以同时拖动所有被选中的框，点击空白处取消选择
+
+编辑对话框支持 输入中文，自动切换为英文；也支持输入英文，自动生成中文标签，如果对英文自动生成的中文不满意，在拼音一致的情况下，可以人为输入中文，替换原自动生成的中文
+
+v 快捷键设置把上张图片的标注结果复制到本张图片，只有在本张图片不存在对应的xml的时候可以生效
+
+b track based on the prev image (should open v first), if succeed, update current xml, if already has current xml
+	notice the bbox num should be same as the prev image
+	notice the prev image bbox num will overlap the current
+
+n only update current xml with previous xml
+
+
+
+

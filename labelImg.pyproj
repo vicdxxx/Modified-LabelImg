@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6f80b631-a9b3-435e-ac0b-df6cf5e3e9ac}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>labelImg.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include=".git\config" />
+    <Content Include=".git\description" />
+    <Content Include=".git\FETCH_HEAD" />
+    <Content Include=".git\HEAD" />
+    <Content Include=".git\hooks\applypatch-msg.sample" />
+    <Content Include=".git\hooks\commit-msg.sample" />
+    <Content Include=".git\hooks\fsmonitor-watchman.sample" />
+    <Content Include=".git\hooks\post-update.sample" />
+    <Content Include=".git\hooks\pre-applypatch.sample" />
+    <Content Include=".git\hooks\pre-commit.sample" />
+    <Content Include=".git\hooks\pre-merge-commit.sample" />
+    <Content Include=".git\hooks\pre-push.sample" />
+    <Content Include=".git\hooks\pre-rebase.sample" />
+    <Content Include=".git\hooks\pre-receive.sample" />
+    <Content Include=".git\hooks\prepare-commit-msg.sample" />
+    <Content Include=".git\hooks\update.sample" />
+    <Content Include=".git\index" />
+    <Content Include=".git\info\exclude" />
+    <Content Include=".git\logs\HEAD" />
+    <Content Include=".git\logs\refs\heads\master" />
+    <Content Include=".git\logs\refs\remotes\origin\HEAD" />
+    <Content Include=".git\objects\pack\pack-12b7879208984dfbb55568a6d00f4d8be7856643.idx" />
+    <Content Include=".git\objects\pack\pack-12b7879208984dfbb55568a6d00f4d8be7856643.pack" />
+    <Content Include=".git\packed-refs" />
+    <Content Include=".git\refs\heads\master" />
+    <Content Include=".git\refs\remotes\origin\HEAD" />
+    <Content Include=".travis.yml" />
+    <Content Include=".vscode\settings.json" />
+    <Content Include="build-tools\.gitignore" />
+    <Content Include="build-tools\build-for-macos.sh" />
+    <Content Include="build-tools\build-for-pypi.sh" />
+    <Content Include="build-tools\build-ubuntu-binary.sh" />
+    <Content Include="build-tools\build-windows-binary.sh" />
+    <Content Include="build-tools\envsetup.sh" />
+    <Content Include="build-tools\README.md" />
+    <Content Include="build-tools\run-in-container.sh" />
+    <Content Include="CONTRIBUTING.rst" />
+    <Content Include="data\predefined_classes.txt" />
+    <Content Include="demo\demo.jpg" />
+    <Content Include="demo\demo3.jpg" />
+    <Content Include="demo\demo4.png" />
+    <Content Include="demo\demo5.png" />
+    <Content Include="HISTORY.rst" />
+    <Content Include="issue_template.md" />
+    <Content Include="labelImg.pyproj" />
+    <Content Include="libs\__pycache__\canvas.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\colorDialog.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\constants.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\hashableQListWidgetItem.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\labelDialog.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\labelFile.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\pascal_voc_io.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\resources.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\settings.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\shape.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\stringBundle.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\toolBar.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\ustr.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\utils.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\version.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\yolo_io.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\zoomWidget.cpython-36.pyc" />
+    <Content Include="libs\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="LICENSE" />
+    <Content Include="Makefile" />
+    <Content Include="MANIFEST.in" />
+    <Content Include="README.rst" />
+    <Content Include="readme.txt" />
+    <Content Include="requirements\requirements-linux-python3.txt" />
+    <Content Include="resources.qrc" />
+    <Content Include="resources\icons\app.icns" />
+    <Content Include="resources\icons\app.png" />
+    <Content Include="resources\icons\app.svg" />
+    <Content Include="resources\icons\cancel.png" />
+    <Content Include="resources\icons\close.png" />
+    <Content Include="resources\icons\color.png" />
+    <Content Include="resources\icons\color_line.png" />
+    <Content Include="resources\icons\copy.png" />
+    <Content Include="resources\icons\delete.png" />
+    <Content Include="resources\icons\done.png" />
+    <Content Include="resources\icons\done.svg" />
+    <Content Include="resources\icons\edit.png" />
+    <Content Include="resources\icons\expert1.png" />
+    <Content Include="resources\icons\expert2.png" />
+    <Content Include="resources\icons\eye.png" />
+    <Content Include="resources\icons\feBlend-icon.png" />
+    <Content Include="resources\icons\file.png" />
+    <Content Include="resources\icons\fit-width.png" />
+    <Content Include="resources\icons\fit-window.png" />
+    <Content Include="resources\icons\fit.png" />
+    <Content Include="resources\icons\format_voc.png" />
+    <Content Include="resources\icons\format_yolo.png" />
+    <Content Include="resources\icons\help.png" />
+    <Content Include="resources\icons\labels.png" />
+    <Content Include="resources\icons\labels.svg" />
+    <Content Include="resources\icons\new.png" />
+    <Content Include="resources\icons\next.png" />
+    <Content Include="resources\icons\objects.png" />
+    <Content Include="resources\icons\open.png" />
+    <Content Include="resources\icons\open.svg" />
+    <Content Include="resources\icons\prev.png" />
+    <Content Include="resources\icons\quit.png" />
+    <Content Include="resources\icons\resetall.png" />
+    <Content Include="resources\icons\save-as.png" />
+    <Content Include="resources\icons\save-as.svg" />
+    <Content Include="resources\icons\save.png" />
+    <Content Include="resources\icons\save.svg" />
+    <Content Include="resources\icons\undo-cross.png" />
+    <Content Include="resources\icons\undo.png" />
+    <Content Include="resources\icons\verify.png" />
+    <Content Include="resources\icons\zoom-in.png" />
+    <Content Include="resources\icons\zoom-out.png" />
+    <Content Include="resources\icons\zoom.png" />
+    <Content Include="resources\strings\strings-zh-CN.properties" />
+    <Content Include="resources\strings\strings-zh-TW.properties" />
+    <Content Include="resources\strings\strings.properties" />
+    <Content Include="setup.cfg" />
+    <Content Include="tests\.gitignore" />
+    <Content Include="tests\test.512.512.bmp" />
+    <Content Include="tests\臉書.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="labelImg.py" />
+    <Compile Include="libs\canvas.py" />
+    <Compile Include="libs\colorDialog.py" />
+    <Compile Include="libs\constants.py" />
+    <Compile Include="libs\hashableQListWidgetItem.py" />
+    <Compile Include="libs\labelDialog.py" />
+    <Compile Include="libs\labelFile.py" />
+    <Compile Include="libs\pascal_voc_io.py" />
+    <Compile Include="libs\resources.py" />
+    <Compile Include="libs\settings.py" />
+    <Compile Include="libs\shape.py" />
+    <Compile Include="libs\stringBundle.py" />
+    <Compile Include="libs\toolBar.py" />
+    <Compile Include="libs\ustr.py" />
+    <Compile Include="libs\utils.py" />
+    <Compile Include="libs\version.py" />
+    <Compile Include="libs\yolo_io.py" />
+    <Compile Include="libs\zoomWidget.py" />
+    <Compile Include="libs\__init__.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="tests\test_io.py" />
+    <Compile Include="tests\test_qt.py" />
+    <Compile Include="tests\test_settings.py" />
+    <Compile Include="tests\test_stringBundle.py" />
+    <Compile Include="tests\test_utils.py" />
+    <Compile Include="util_pinyin.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git" />
+    <Folder Include=".git\hooks" />
+    <Folder Include=".git\info" />
+    <Folder Include=".git\logs" />
+    <Folder Include=".git\logs\refs\" />
+    <Folder Include=".git\logs\refs\heads" />
+    <Folder Include=".git\logs\refs\remotes\" />
+    <Folder Include=".git\logs\refs\remotes\origin" />
+    <Folder Include=".git\objects\" />
+    <Folder Include=".git\objects\pack" />
+    <Folder Include=".git\refs\" />
+    <Folder Include=".git\refs\heads" />
+    <Folder Include=".git\refs\remotes\" />
+    <Folder Include=".git\refs\remotes\origin" />
+    <Folder Include=".vscode" />
+    <Folder Include="build-tools" />
+    <Folder Include="data" />
+    <Folder Include="demo" />
+    <Folder Include="libs" />
+    <Folder Include="libs\__pycache__" />
+    <Folder Include="requirements" />
+    <Folder Include="resources\" />
+    <Folder Include="resources\icons" />
+    <Folder Include="resources\strings" />
+    <Folder Include="tests" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

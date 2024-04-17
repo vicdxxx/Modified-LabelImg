@@ -1,0 +1,14 @@
+命令行
+labelme_to_VOC.exe 目标路径，比如：
+
+windows下
+E:\SmartLarder\AnnotationEvaluation>labelme_to_VOC.exe F:\SmartLarder\test\image\diefang
+
+目标路径下生成voc文件夹
+
+
+定位框抽取工具-190322通用版本.exe 填入 目标路径下的voc文件夹
+即可得到mask标注的bbox结果
+
+替换 目标路径下的voc文件夹中的图片为正常图片
+即可得到bbox标注的bbox结果
